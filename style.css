@@ -201,7 +201,7 @@ main{
 
 .sign{
     margin: 0px 24px 48px 22px;
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width:100px;
