@@ -5,8 +5,8 @@
 }
 
 body{
-    width: 1280px;
-    margin: 0px auto;
+    /* width: 1280px;
+    margin: 0px auto; */
     margin-bottom: 200px;
     background-color: whitesmoke;
 }
@@ -41,6 +41,8 @@ body{
 header{
     width: 1280px;
     height: 580px;
+    width: 1280px;
+    margin: 0px auto;
     margin-top: 50px;
 }
 
@@ -108,13 +110,9 @@ header{
 ----------------------------------------------------------------*/
 main{
     width: 1280px;
-    /* margin: 0px auto; */
+    width: 1280px;
+    margin: 0px auto;
     margin-top: 110px;
-    margin-bottom: 1000px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* align-content: center; */
 }
 .vision{
     width: 1280px;
@@ -297,4 +295,199 @@ gap: 20px;
     font-size: 18px;    
     border: none;
 
+}
+
+
+
+
+/* -----------------------
+--------------------------donate section css */
+
+.donation{
+    width: 1280px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.donation-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.donate-description{
+    text-align: center;
+}
+.amount-option{
+    display: flex;
+}
+
+.amount-btn{
+    width: 240px;
+    height: 128px;
+    padding: 20px;
+    margin: 0px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.thousend-btn{
+    width: 264px;
+
+}
+
+.amount-btn:hover{
+    background-color:  rgba(84, 143, 245, 0.39);
+    transition: .5s;
+}
+
+.unq-btn{
+    background: rgb(198, 228, 214);
+}
+
+.inpt-amount{
+    width: 1032px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    margin: 32px 0px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.dnt-btn{
+    width: 180px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;    
+    border: none;
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+/* challeenge css */
+.newsletter{
+    padding: 80px 100px 80px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 150px;
+}
+.newsletter-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.email-inpt{
+    display: flex;
+
+}
+
+.email-inpt input{
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 0px 40px 0px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+}
+.email-inpt button{
+    width: 150px;
+    height: 56px;
+    border: none;
+    padding: 19px 40px 19px 40px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.newsletter-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+/* --------------
+
+-------------footer*/
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background-color: white;
+        width: 1600px;
+        margin-top: 150px;
+    height: 226px;
+    padding: 50px 160px 50px 160px;
+ }
+
+
+.footer hr{
+
+    border-top: 1px solid rgba(14, 14, 14, 0.1);
+    width: 1122px;
+}
+.footer-text{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-icon img{
+    padding:20px;
 }
