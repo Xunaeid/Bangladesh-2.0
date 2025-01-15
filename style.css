@@ -100,3 +100,201 @@ header{
     width: 474.03px;
     height: 400px;
 }
+
+
+
+/*-------------------------------------------------------------
+------------------------ card css ---------------------------
+----------------------------------------------------------------*/
+main{
+    width: 1280px;
+    /* margin: 0px auto; */
+    margin-top: 110px;
+    margin-bottom: 1000px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* align-content: center; */
+}
+.vision{
+    width: 1280px;
+    height: 765px;
+}
+
+.vision-info h1{
+    margin-bottom:24px;
+}
+.cards{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.card-btn{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    width: 122px;
+    height: 41px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;    
+    border: none;
+    
+}
+
+.card{
+    width: 410.67px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+
+}
+
+.card-style1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-style2{
+    background: rgb(198, 228, 214);
+}
+.card-style3{
+   background: rgb(247, 235, 207);
+    
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.btn2{
+    background: rgb(9, 161, 92);
+}
+.btn3{
+    background: rgb(255, 194, 57);
+}
+
+/* -------------------------------
+-----------------------------------quote section */
+
+.sign{
+    margin: 0px 24px 48px 22px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    position: absolute;
+    height: 100px;
+}
+.quote{
+    height: 256px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 32px;
+
+}
+.quote-field{
+    padding: 48px 24px 48px 24px;
+
+}
+
+.quote-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.author-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.author-role{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+ 
+}
+
+
+
+/*---------------------------
+------------------------------ news section */
+
+
+.news{
+    width: 1280px;
+    height: 1006px;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0px;
+}
+.news-card{
+    height: 402px;
+    padding: 40px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
+    }
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.news-img img{
+    border-radius: 20px;
+}
+
+.news-description{
+width: 744px;
+height: 290px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+}
+
+.news-card{
+    display: flex;
+    gap: 24px;
+}
+
+.news-btn{
+    border-radius: 8px;
+    background:rgb(0, 106, 80);;
+    width: 122px;
+    height: 41px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;    
+    border: none;
+
+}
