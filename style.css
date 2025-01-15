@@ -1,5 +1,102 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+
+body{
+    width: 1280px;
+    margin: 0px auto;
+    margin-bottom: 200px;
+    background-color: whitesmoke;
+}
+
+
+/* shared style */
+.style1{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+.style2{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+}
+.style3{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* banner section design */
+
+header{
+    width: 1280px;
+    height: 580px;
+    margin-top: 50px;
+}
+
+.banner{
+    /* padding: 80px 100px 80px 100px; */
     
+    display: flex;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+}
+
+
+.banner-item1{
+    width: 622px;
+    height: 326px;
+
+}
+
+
+
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 270px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;    
+    border: none;
+
+}
+.btn:hover{
+    box-shadow: 2px 2px 5px rgba(56, 42, 42, 0.5);
+    font-size: 18px;
+    background: rgb(163, 1, 1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.banner-item2{
+    width: 474.03px;
+    height: 400px;
 }
